@@ -1,12 +1,7 @@
 import React from "react";
-import Navigation from "../components/Navigation";
 
 const Accueil = () => {
-  return (
-    <div className="accueil">
-      <Navigation />
-    </div>
-  );
+  return <div className="accueil"></div>;
 };
 
 export default Accueil;
